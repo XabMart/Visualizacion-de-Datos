@@ -19,6 +19,7 @@ var visualization = d3plus.viz()
  .id('name')
  .x('year')
  .y('value')
+ .size(10)
  .axes({ ticks: 'false' })
  .draw();
 });
@@ -46,6 +47,5 @@ var visualization = d3plus.viz()
   .id('name')
   .x('year')
   .y('value')
-  .size(50)
   .axes({ ticks: 'false' })
   .draw();
